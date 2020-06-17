@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>MIXTA - Categorieën</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+  <div class="wrapper d-flex align-items-stretch">
+    <!--Aside navigation Start-->
+    <nav id="sidebar">
+      <p class="welcome-text">Welkom, MIXTA</p>
+      <div class="pt-4">
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="overzicht.html">
+              <img src="assets/menu.png" class="d-inline-block"></img><span class="pl-3">Overzicht</span></a>
+          </li>
+          <li>
+            <a href="orders.html"><img src="assets/bell.png" class="d-inline-block"></img><span
+                class="pl-3">Orders</span></a>
+          </li>
+          <li class="active">
+            <a href="#menuKaart" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><img
+                src="assets/book-open.png" class="d-inline-block"></img><span class="pl-3">Menukaart<i
+                  class="fa fa-chevron-down ml-3" aria-hidden="true"></i></span></a>
+            <ul class="collapse list-unstyled show" id="menuKaart">
+              <li>
+                <a href="menukaart-items.html">Items</a>
+              </li>
+              <li class="active-link">
+                <a href="#">Categorieën</a>
+              </li>
+              <li>
+                <a href="menukaart-options.html">Optie’s</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="klanten.html"><img src="assets/user.png" class="d-inline-block"></img><span
+                class="pl-3">Klanten</span></a>
+          </li>
+          <hr class="bg-light-line">
+          <li>
+            <a href="#settings" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><img
+                src="assets/settings.png" class="d-inline-block"></img><span class="pl-3">Instellingen<i
+                  class="fa fa-chevron-down ml-3" aria-hidden="true"></i></span></a>
+            <ul class="collapse list-unstyled" id="settings">
+              <li>
+                <a href="settings-algemeen.html">Algemeen</a>
+              </li>
+              <li>
+                <a href="#">Pushberichten</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Aside navigation End-->
+
+    <!-- Page Content  -->
+    <div id="content">
+
+      <!--Top navigation Start-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <button type="button" id="sidebarCollapse" class="btn btn-primary d-inline-block d-lg-none">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Toggle Menu</span>
+          </button>
+          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link restaurant-name" href="#">MIXTA</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Wijzig restaurant
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/Cafe Latino/overzicht.html">Cafe Latino</a>
+                  <hr>
+                  <a class="dropdown-item" href="#">Mixta</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Aside navigation End-->
+
+      <!--Overzicht Start-->
+      <!--Overzicht End-->
+
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
